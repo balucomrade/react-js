@@ -1,0 +1,60 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"balu",
+            "email":"balu@gmail.com",
+            "phone":8096556812 
+        },
+        {
+            "id":2,
+            "name":"balu1",
+            "email":"balu@1gmail.com",
+            "phone":8096556812 
+        },
+        {
+            "id":3,
+            "name":"balu2",
+            "email":"balu@2gmail.com",
+            "phone":8096556812 
+        },
+        {
+            "id":4,
+            "name":"balu3",
+            "email":"balu@3gmail.com",
+            "phone":8096556812 
+        }
+    ],
+
+    "bookings":
+    [
+        {
+            "sno":1,
+            "datebooking":"30-05-2022",
+            "product":"mi mobile"
+        },
+        {
+            "sno":1,
+            "datebooking":"30-05-2022",
+            "product":"oppo"
+        }
+    ],
+
+    "admins":[
+        {
+          "sno":1,
+          "uname":"balu",
+          "mobile":8096556812  
+        },
+        {
+            "sno":2,
+            "uname":"balu",
+            "mobile":8096556812  
+          },
+          {
+            "sno":3,
+            "uname":"balu",
+            "mobile":8096556812  
+          }
+    ]
+}

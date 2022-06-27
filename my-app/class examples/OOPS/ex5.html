@@ -1,0 +1,47 @@
+<script>
+
+    //class declaration & body
+    class user{
+    uid=1
+    uname="balu"
+    umail="balu@gmail.com"
+
+    //class methods & functions
+    myfun(request)
+    {
+
+        var msg = request
+        return `${msg}- ${this.uid}`
+    }
+
+    myfun1=(request)=>
+    {
+        var msg = request
+        return `${msg}-${this.uname}`
+        
+    }
+
+    myfun2=(request)=>
+    {
+        var msg = request
+        return `${msg}-${this.umail}`
+       
+    }
+    }
+    
+    //object of the class
+    var u= new user
+    document.write(`<h3>class property data:</h3> 
+                uid is:${u.uid}<br/>
+                uid is:${u.uname}<br/>
+                uid is:${u.umail}<br/>
+    `)
+
+    var u= new user
+    document.write(`<h3>class methods data:</h3> 
+            ${u.myfun("named function with argument")}<br/>
+            ${u.myfun1("call back function with argument")}<br/>
+            ${u.myfun2("arrow function with argument")}<br/>
+    `)
+    
+    </script>

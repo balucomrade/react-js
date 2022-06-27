@@ -1,0 +1,41 @@
+<script>
+
+    //class declaration & body
+    class user{
+    uid=1
+    uname="balu"
+    umail="balu@gmail.com"
+
+    //class methods & functions
+    myfun()
+    {
+        return `named functions in class without using function keyword`
+    }
+
+    myfun1=function()
+    {
+        return `ananemous functions in class without using function keyword`
+    }
+
+    myfun2=()=>
+    {
+        return `arrow functions in class without using function keyword`
+    }
+    }
+    
+    //object of the class
+    var u= new user
+    document.write(`<h3>class property data:</h3> 
+                uid is:${u.uid}<br/>
+                uid is:${u.uname}<br/>
+                uid is:${u.umail}<br/>
+    `)
+
+    var u= new user
+    document.write(`<h3>class methods data:</h3> 
+            ${u.myfun()}<br/>
+            ${u.myfun1()}<br/>
+            ${u.myfun2()}<br/>
+    `)
+    
+    </script>

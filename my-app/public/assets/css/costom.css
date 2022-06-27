@@ -1,0 +1,22 @@
+.para
+{
+    text-align: justify;
+    line-height: 180%;
+    text-indent: 200px;
+}
+.icon_box{
+    
+    
+    width:50px !important;
+    font-size:30px !important;
+
+    
+
+
+}
+.id_span{
+    font-size:30px !important;
+}
+body{
+background-color: pink;
+}

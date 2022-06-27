@@ -1,0 +1,30 @@
+<script>
+
+    //class declaration & body
+    class user
+    {
+       constructor()
+       {
+           document.write("this is class default method constructor <br/> <br/>")
+       }
+
+       myfun1()
+       {
+           document.write("this is our defined method-1 <br/> <br/>")
+           this.myfun2();
+       }
+       myfun2()
+       {
+           document.write("this is our defined method-2 <br/> <br/>")
+           this.myfun3();
+       }
+       myfun3()
+       {
+           document.write("this is our defined method-3 <br/> <br/>")
+       }
+    }
+     //class object
+     var u=new user
+     u.myfun1()
+     u.myfun2()
+    </script>

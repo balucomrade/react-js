@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "name": "balu",
+      "email": "balu@gmail.com",
+      "phone": "8096556812",
+      "id": 5
+    },
+    {
+      "name": "akhil",
+      "email": "akhil@gmail.com",
+      "phone": "789654321",
+      "id": 6
+    },
+    {
+      "name": "balu",
+      "email": "balu@gmail.com",
+      "phone": "8096556812",
+      "id": 7
+    },
+    {
+      "name": "kranthi",
+      "email": "kranthi@gmail.com",
+      "phone": "987654321",
+      "id": 8
+    },
+    {
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "phone": "8976542354",
+      "id": 9
+    },
+    {
+      "name": "virat",
+      "email": "virat@gmail.com",
+      "phone": "876908765",
+      "id": 10
+    },
+    {
+      "name": "ABHI",
+      "email": "ABHI@GMAIL.COM",
+      "phone": "9878965432",
+      "id": 11
+    },
+    {
+      "name": "balu",
+      "email": "balu@gmail.com",
+      "phone": "8096556812",
+      "id": 12
+    },
+    {
+      "name": "balu",
+      "email": "balu@gmail.com",
+      "phone": "8096556812",
+      "id": 13
+    }
+  ],
+  "bookings": [
+    {
+      "sno": 1,
+      "datebooking": "30-05-2022",
+      "product": "mi mobile"
+    },
+    {
+      "sno": 1,
+      "datebooking": "30-05-2022",
+      "product": "oppo"
+    }
+  ],
+  "admins": [
+    {
+      "sno": 1,
+      "uname": "balu",
+      "mobile": 8096556812
+    },
+    {
+      "sno": 2,
+      "uname": "balu",
+      "mobile": 8096556812
+    },
+    {
+      "sno": 3,
+      "uname": "balu",
+      "mobile": 8096556812
+    }
+  ]
+}
